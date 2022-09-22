@@ -1,0 +1,28 @@
+header h1{
+    font-size: 60px;
+    color: rgb(10, 18, 54);
+    font: normal;
+    text-align: center;
+    text-shadow:3px 3px 3px white;
+}
+
+section {
+   text-align: center;
+   box-shadow: 4px 4px 4px rgb(185, 117, 14);
+   padding: 10px;
+   margin: auto;
+   border-radius: 20px;
+   background-color: rgb(100, 185, 178);
+   width: 600px;
+
+}
+section P{
+    font-size: 20pt;
+    color: white;
+}
+body{
+    background: url('/img_cont.png');
+}
+
+
+

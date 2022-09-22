@@ -1,0 +1,22 @@
+body div#form{
+    border-radius: 20px;
+    background-color: rgb(17, 170, 12);
+    text-align: center;
+    box-shadow: 4px 4px 4px rgb(184, 123, 10);
+    margin: auto;
+    padding: 10px;
+    width: 350px;
+}
+body p{
+    font-size: 20pt;
+    color: rgb(254, 253, 255);
+}
+body{
+    background: url('/calc_simples/quadro.png');
+}
+header h1{
+    font-size: 30pt;
+    color: rgb(224, 132, 11);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

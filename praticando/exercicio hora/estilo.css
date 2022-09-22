@@ -1,0 +1,29 @@
+body {
+background: rgb(78, 78, 161);
+font: normal 15pt Arial;
+
+
+}
+header h1{
+    font: normal 20pt Arial;
+    text-align: center;
+    color: aliceblue;
+}
+body section{
+    background: white;
+    font: normal 12pt Arial;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.411);
+
+}
+footer p{
+    font: normal 12pt Arial;
+    color: white;
+    text-align: center;
+}
+body section.dif{
+   color: aqua;
+}

@@ -1,0 +1,28 @@
+body{
+    background: rgba(147, 99, 201, 0.705);
+    font: normal 15pt Arial;
+    background: url('/interação_com_usuario/fundo.png');
+}
+
+header{
+     color: white;
+     text-align: center;
+}
+
+section{
+     background: white ;
+     border-radius: 10px;
+     padding: 15px;
+     width: 500px;
+     margin: auto;
+     box-shadow: 3px 3px 6px rgba(29, 28, 28, 0.438) ;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic  ;
+}
+div#resultado{
+    text-align:center;
+}

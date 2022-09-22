@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc simples</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo Aluno!</h1>
+    </header>
+    <div id="form">
+        <p>
+            valor1
+            <input type="number" id="n1" name="n1">
+        </p>
+        <p>valor2
+            <input type="number" id="n2" name="n2">
+        </p>
+
+        <p>
+            adição:
+            <input type="radio" id="radadc" name="radcalc" checked>
+            <label for="adicao">+</label>
+        </p>
+        <p>
+            subtração:
+            <input type="radio" id="radsub" name="radcalc">
+            <label for="subtracao">-</label>
+        </p>
+
+        <p>
+            divisão:
+            <input type="radio" id="raddiv" name="radcalc">
+            <label for="divisao">/</label>
+        </p>
+        <p>
+            multiplicação:
+            <input type="radio" id="radmult" name="radcalc">
+            <label for="multiplicao">x</label>
+        </p>
+        <input type="button" value="Calcular" onclick="calcular()">
+
+    <div id="resultado">
+     <p>preencha o formulario acima!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

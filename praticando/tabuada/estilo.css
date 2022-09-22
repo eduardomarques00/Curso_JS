@@ -1,0 +1,30 @@
+header h1{
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(19, 14, 8);
+    color: rgb(255, 255, 255);
+    font-size: 58pt;
+}
+
+
+body section{
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px rgb(5, 4, 4);
+    width: 480px;
+    height: 300px;
+    
+    text-align: center;
+    margin: auto;
+    background: url('/madeira_fundo.png');
+    
+
+    
+}
+body{
+    background: url('/img_fundo.jpg');
+}
+
+body p{
+    color: white;
+    text-shadow:2px 2px 3px black;
+    font-size: 25px;
+}

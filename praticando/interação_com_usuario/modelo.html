@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio idade</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <h1>Idade</h1>
+    </header>
+
+    <section>
+        <div>
+          <p>Ano de nascimento:
+          <input type="number" name="txtano" id="txtano" min="0">
+          </p>
+        <p>Sexo:
+        <input type="radio" name="radsex" id="masculino">
+          <label for="masculino">masculino</label>
+
+          <input type="radio" name="radsex" id="feminino">
+          <label for="femininio">feminino</label>
+        </p>
+
+          <input type="button" value="checar"  onclick="checar()">
+        </div>
+
+        <div id="resultado">
+         <p>Preencha o formulario acima.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; edu</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

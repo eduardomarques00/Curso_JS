@@ -1,0 +1,27 @@
+ body{
+    text-align: center;
+    background-color: rgba(167, 89, 125, 0.712);
+    font-size: 25px;
+    background: url('/imagens/nuvemazul.png');
+ }
+ body header{
+   background-color: azure;
+  
+ }
+ header h1{
+   color: rgb(26, 99, 163);
+   text-shadow: 2px 2px 2px pink;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-radius: 20px;
+   
+ }
+ 
+ section{
+   border-radius: 20px;
+   box-shadow: 3px 3px 6px rgb(235, 190, 217);
+   background-color: azure;
+   margin: auto;
+   padding: 10px;
+   width: 400px;
+   padding: 20pt;
+ }
