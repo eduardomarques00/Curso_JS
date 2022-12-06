@@ -1,2 +1,2 @@
 # Curso_JS
- curso de javascropt basico
+ curso de javascript basico
